@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.header{
+    width: 35%;
+    height: 50px;
+    margin: 0 auto;
+    background: linear-gradient(180deg,skyblue,pink,plum);
+    display: grid;
+    place-items: center;
+    letter-spacing: 3px;
+    /* border-radius: 20px; */
+}
+.container{
+    width: 35%;
+    height: 530px;
+    margin: 0 auto;
+    /* margin-top: 65px; */
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg,skyblue,pink,plum,pink,skyblue);
+    border-radius: 20px;
+}
+.container .heading{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+.container .img{
+    height: 150px;
+    width: 150px;
+    border-radius: 51%;
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+    border: 3px solid white;
+    box-shadow: 8px 8px 5px black;
+}
+.container .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 51%;
+    object-fit: cover;
+}
+.container .options{
+    margin-top: 30px;
+    height: 40px;
+    width: 70%;
+    display: flex;
+    gap: 15px;
+}
+.container .options select{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    outline: 0;
+    color: white;
+    font-size: 18px;
+}
+.container .options select option{
+    color: black;
+}
+.container .options button{
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.joke{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: black;
+    padding: 20px;
+} 
+.footer{
+    width: 35%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: linear-gradient(180deg,skyblue,pink,plum);
+    display: grid;
+    place-items: center;
+    letter-spacing: 3px;
+    border-radius: 20px;
+}
